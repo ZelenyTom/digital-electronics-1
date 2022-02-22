@@ -3,18 +3,19 @@
 
 ### De Morgan's laws
 
-1. Equations of all three versions of logic function f(c,b,a):
+1. Equations of all three versions of logic function f(c,b,a)
+  
 
-   ![Logic function](images/equations.png)
+  ![274097610_985111982364906_949066952152285094_n](https://user-images.githubusercontent.com/99410667/155201279-032c684e-fbb3-46c3-b030-458ddd9d332f.jpg)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    f_o      <= -- WRITE YOUR CODE HERE
-    f_nand_o <= -- WRITE YOUR CODE HERE
-    f_nor_o  <= -- WRITE YOUR CODE HERE
+    f_o      <= (not(b_i) and a_i) or (not(c_i) and not(b_i));
+    f_nand_o <= (not b_i nand a_i) nand (not c_i nand not b_i);
+    f_nor_o  <= b_i nor (a_i nor not c_i);
 end architecture dataflow;
 ```
 
