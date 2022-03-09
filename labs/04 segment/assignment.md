@@ -1,4 +1,4 @@
-# Lab 4: YOUR_Zelený Tomáš
+# Lab 4: Zelený Tomáš
 
 ### Seven-segment display decoder
 
