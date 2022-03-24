@@ -48,7 +48,7 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![image](https://user-images.githubusercontent.com/99410667/159951085-74ed3fcc-0261-4443-996d-0dd7a4b70ea0.png)
+   ![image](https://user-images.githubusercontent.com/99410667/159957108-fa7234d9-3930-4d5b-9c1e-f0c3726841bd.png)
 
 ### Eight-digit driver
 
