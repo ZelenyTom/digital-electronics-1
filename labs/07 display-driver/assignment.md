@@ -1,4 +1,4 @@
-# Lab 7: YOUR_FIRSTNAME LASTNAME
+# Lab 7: Tomáš Zelený
 
 ### Display driver
 ![image](https://user-images.githubusercontent.com/99410667/159933989-87b9b281-26b0-4200-9594-1ed56aa6cf07.png)
